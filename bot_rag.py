@@ -19,7 +19,8 @@ def handle_rag_message(message):
     try:
         question = (message.text or "").strip()
         if not question:
-            bot.reply_to(message, "Напишите текст сообщения.")
+            bot.reply_to(message, "зона отдыха и развлечений")
+
             return
 
         # Ответ через RAG (knowledge_base.txt + Chroma + Ollama, если доступен)

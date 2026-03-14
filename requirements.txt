@@ -1,3 +1,13 @@
-dotenv == 0.9.9
-telebot == 0.0.5
-langchain_openai
+langchain
+langchain-core
+langgraph
+langchain-text-splitters
+chromadb
+sentence-transformers
+pyTelegramBotAPI
+python-dotenv
+typing-extensions
+python-dotenv
+telebot
+langchain_community
+langchain-ollama
